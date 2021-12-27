@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 18px;
+    --headline: #333;
+    --quote: #333;
+    --about-background: #655E5E;
+    --about-text: #fff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--headline);
+}
+
+
+
+.hero {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    /* justify-content: center; */
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+
+}
+
+.nav-left {
+    /* background-color: aquamarine; */
+    width: 30%;
+    margin-left: 2vw;
+    margin-right: 3vw;
+    justify-content: center;
+
+}
+
+.nav-right {
+    /* background-color: chartreuse; */
+    width: 70%;
+
+}
+
+.nav-right ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-right ul li {
+    margin-left: 3vw;
+    margin-right: 2vw;
+}
+
+.colour-field {
+    height: 80vh;
+    width: 100%;
+
+    background: linear-gradient(90deg, #fc44ed 0%, #f6ffb7 30%, #96efff 67%, #7cff75 100%);
+    background-size: 1000%;
+    animation: colour-field 20s linear alternate infinite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-left: 10vh; */
+    /* margin-right: 10vh; */
+}
+
+.hero-text-wrapper{
+    height: 20vh;
+    width: 40vw;
+
+}
+
+.hero-text-wrapper p {
+    font-size: 1.8vw;
+    background-blend-mode: multiply;
+    color: var(--quote);
+}
+
+
+.case-wrapper {
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10vh;
+}
+
+.case-text {
+    /* background-color: plum; */
+    width: 50vw;
+    margin: 6vw;
+}
+
+.case-image-1,
+.case-image-2 {
+    background-color: royalblue;
+    height: auto;
+    width: 30vw;
+    background-image: url(/media/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    background-color: var(--about-background);
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.about-photo {
+    background-image: url(/media/placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: orange;
+    /* margin-top: 10vh; */
+    margin-left: 10vw;
+    height: 40vh;
+    width: 20vw;
+}
+
+.about-text {
+    margin-left: 10vw;
+    height: 40vh;
+    width: 40vw;
+    color: var(--about-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

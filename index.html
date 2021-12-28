@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Magnus Jorde</title>
+    <title>Portfolio 📂 Magnus Jorde</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/keyframes.css">
 </head>
 
@@ -15,30 +16,30 @@
 <body>
 
 
-    <section class="hero" id="hero">
+    <section class="first__hero" id="hero">
 
-        <nav class="nav-wrapper">
-            <nav class="nav-left">
+        <nav class="first__nav-wrapper">
+            <nav class="first__nav-left">
                 <h3>
                     MAGNUS JORDE
                 </h3>
             </nav>
-            <nav class="nav-right">
+            <nav class="first__nav-right">
                 <ul>
                     <li>
-                        <a href="#work">
+                        <a href="#work" class="js-scroll">
                             <h4>
                                 WORK
                             </h4>
                         </a>
                     </li>
                     <li>
-                        <a href="#about">
+                        <a href="#about" class="js-scroll">
                             <h4>ABOUT</h4>
                         </a>
                     </li>
                     <li>
-                        <a href="#about">
+                        <a href="#about" class="js-scroll">
                             <h4>CONTACT</h4>
                         </a>
                     </li>
@@ -46,9 +47,9 @@
             </nav>
         </nav>
 
-        <div class="colour-field">
+        <div class="first__colour-field">
 
-            <div class="hero-text-wrapper">
+            <div class="first__hero-text-wrapper">
                 <p>
                     “Perfection is attained, not when no more can be added, but when no more can be removed.”
                 </p>
@@ -64,41 +65,46 @@
 
     <section class="work" id="work">
 
-        <div class="case-wrapper">
+        <a href="case1.html">
+            <div class="first__case-wrapper">
 
-            <div class="case-text">
-                <h5>
-                    Headline
-                </h5>
-                <p>
-                    Pineapple salsa cinnamon toast mediterranean vegetables instant pot lime mango crisp Malaysian dark
-                    chocolate springtime strawberry banana bread cool cucumbers pumpkin lemon red lentil soup leek a
-                    delicious meal macadamia nut cookies sweet potato dill shallots one bowl green tea lime strawberry
-                    spinach salad.
-                </p>
+                <div class="first__case-text-wrapper">
+                    <div class="first__case-text">
+                        <h5>
+                           Charity project
+                        </h5>
+                        <p>
+                            A college project where we chose a non-profit cause, gathered user insights and then produced a webpage that would promote the cause to the target group.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="first__case-image-1">
+                    <img src="media/X-case1-survey-1.png" alt="Google survey">
+                </div>
+
+            </div>
+        </a>
+
+        <div class="first__case-wrapper">
+
+            <div class="first__case-text-wrapper">
+                <div class="first__case-text">
+                    <h5>
+                        Tourism app prototype
+                    </h5>
+                    <p>
+                        Green grapes zesty tofu pad thai cauliflower Thai sun pepper spring overflowing roasted peanuts
+                        naga
+                        viper four-layer pine nuts sparkling pomegranate punch overflowing berries chili avocado basil
+                        pesto
+                        apple vinaigrette asian pear Sicilian pistachio pesto walnut mushroom tart.
+                    </p>
+                </div>
             </div>
 
-            <div class="case-image-1">
-
-            </div>
-
-        </div>
-
-        <div class="case-wrapper">
-
-            <div class="case-text">
-                <h5>
-                    Headline
-                </h5>
-                <p>
-                    Green grapes zesty tofu pad thai cauliflower Thai sun pepper spring overflowing roasted peanuts naga
-                    viper four-layer pine nuts sparkling pomegranate punch overflowing berries chili avocado basil pesto
-                    apple vinaigrette asian pear Sicilian pistachio pesto walnut mushroom tart.
-                </p>
-            </div>
-
-            <div class="case-image-2">
-
+            <div class="first__case-image-2">
+                <img src="media/placeholder_square.png" alt="hand holding iphone">
             </div>
 
         </div>
@@ -106,13 +112,13 @@
 
     </section>
 
-    <section class="about" id="about">
+    <section class="first__about" id="about">
 
-        <div class="about-photo">
-
+        <div class="first__about-photo">
+            <img src="media/placeholder_portrait.png" alt="portrait">
         </div>
 
-        <div class="about-text">
+        <div class="first__about-text">
             <h5>
                 BIO
             </h5>
@@ -123,7 +129,7 @@
                 flatbread Bulgarian carrot summertime grapefruit veggie burgers cozy butternut appetizer coconut rice
                 chocolate grains couscous.
                 <br><br>
-                The best way to reach me is through LinkedIn :-) <br>
+                The best way to reach me is through LinkedIn 🙂 <br>
                 <a href="https://www.linkedin.com/in/magnus-jorde/">
                     www.linkedin.com/in/magnus-jorde/
                 </a>
@@ -132,6 +138,8 @@
         </div>
 
     </section>
+
+    <script src="js/scroll.js" type="text/javascript"></script>
 
 </body>
 

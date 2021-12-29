@@ -30,6 +30,9 @@ a {
     color: var(--headline);
 }
 
+ul {
+    padding: 0 0 0 10px;
+}
 
 
 
@@ -516,6 +519,14 @@ main h5 {
     background-repeat: no-repeat;
 }
 
+.case2__hero-image img {
+    height: 100%;
+    width: auto;
+    margin-top: 6%;
+    margin-left: 20%;
+    align-self: center;
+}
+
 .case2__intro-text {
     height: 80vh;
     display: grid;
@@ -556,14 +567,14 @@ main h5 {
 }
 
 .case2__concept-text {
-    height: 120vh;
+    height: 90vh;
     display: grid;
     grid-template-columns: repeat(12, 8.33%);
     grid-template-rows: repeat(12, 1fr);
 
-    position: sticky;
-    top: 0;
-    z-index: -10;
+    /* position: sticky; */
+    /* top: 0; */
+    /* z-index: -10; */
 }
 
 .case2__concept-text__paragraph-1 {
@@ -590,10 +601,20 @@ main h5 {
     grid-column: 9 / 13;
 }
 
+.case2__sketching-image {
+    height: 140vh;
+    /* max-height: 100vh; */
+    background-image: url('../media/Y-case2-sketching-collage.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-.case2__sketching {
+
+.case2__sketching-text {
     background-color: ivory;
-    height: 120vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(12, 8.33%);
     grid-template-rows: repeat(12, 1fr);
@@ -601,20 +622,20 @@ main h5 {
     z-index: 1;
 }
 
-.case2__sketching__text {
-    grid-row: 5 / 12;
+.case2__sketching-text__paragraph {
+    grid-row: 2 / 12;
     grid-column: 2 / 7;
 }
 
-.case2__sketching__text p {
+.case2__sketching-text__paragraph p {
     max-width: 800px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.case2__sketching__quote {
-    grid-row: 5 / 12;
-    grid-column: 9 / 12;
+.case2__sketching-text__quote {
+    grid-row: 2 / 12;
+    grid-column: 8 / 12;
 }
 
 .case2__mid-fi-image {
@@ -629,7 +650,7 @@ main h5 {
 
 .case2__mid-fi-text {
     background-color: white;
-    height: 120vh;
+    height: 80vh;
     display: grid;
     grid-template-columns: repeat(12, 8.33%);
     grid-template-rows: repeat(12, 1fr);
@@ -643,11 +664,11 @@ main h5 {
 }
 
 .case2__mid-fi-text__quote blockquote {
-    padding: 10%
+    padding: 5%
 }
 
 .case2__mid-fi-text__paragraph {
-    grid-row: 3 / 10;
+    grid-row: 2 / 10;
     grid-column: 6 / 11;
 }
 

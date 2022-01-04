@@ -86,7 +86,9 @@
     font-style: italic;
 }
 
-
+html {
+    -webkit-font-smoothing: antialiased;
+}
 
 body,
 p,
@@ -108,4 +110,16 @@ blockquote {
     line-height: 1.5;
     font-size: 1.3em;
     color: var(--quote);
+}
+
+.first__hero-font {
+    /* background-color: red; */
+    color: #fff;
+    /* mix-blend-mode: difference; */
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.25);
+    font-size: 18vw;
+    font-weight: 900;
+    /* filter: invert(100); */
 }

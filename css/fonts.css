@@ -106,7 +106,7 @@ h1, h2, h3, h4, h5 {
 blockquote {
     font-family: roboto;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 300;
     line-height: 1.5;
     font-size: 1.3em;
     color: var(--quote);

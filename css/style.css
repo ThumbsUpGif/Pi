@@ -6,7 +6,7 @@
 :root {
     font-size: 16px;
     --headline: #333;
-    --quote: #666;
+    --quote: #888;
     --front__about-background: #1e2221;
     --front__about-text: #fff;
 
@@ -30,16 +30,35 @@ a {
     color: var(--headline);
 }
 
+ul {
+    padding: 0 0 0 10px;
+    /* list-style: none; */
+}
+
 li {
     margin: 0;
     padding: 0;
     border: 0;
+    list-style: none;
 }
 
-ul {
-    padding: 0 0 0 10px;
-}
 
+li:before {
+ 
+    content: '\2022';
+    /* For a square bullet */
+    /*content:'\25A0';*/
+    display: block;
+    position: relative;
+    max-width: 0;
+    max-height: 0;
+    left: -10px;
+    top: 0;
+    color: var(--headline);
+    font-size: 1em;
+  }
+
+  
 h2 {
     font-size: 1.3em;
     color: var(--headline);
@@ -239,7 +258,7 @@ time, mark, audio, video {
 }
 
 .first__about-paragraph  p {
-    font-weight: 200;
+    font-weight: 300;
 }
 
 
@@ -251,6 +270,7 @@ time, mark, audio, video {
 
 .first__about-paragraph a{
     color: var(--front__about-text);
+    font-weight: 300;
     
 }
 
@@ -749,7 +769,7 @@ main h5 {
 .case2__flow-image {
     height: 120vh;
     /* max-height: 100vh; */
-    background-image: url('../media/Y-case2-flow-1.jpeg');
+    background-image: url('../media/Y-case2-flow-2.jpeg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -767,6 +787,11 @@ main h5 {
     grid-row: 2 / 12;
     grid-column: 1 / 5;
 
+}
+
+.case2__flow-text__paragraph {
+    grid-row: 2 / 10;
+    grid-column: 6 / 11;
 }
 
 
@@ -832,7 +857,7 @@ main h5 {
 
 .case2__style-text__quote {
     grid-row: 2 / 9;
-    grid-column: 1 / 6; 
+    grid-column: 1 / 5; 
 }
 
 .case2__style-text__quote blockquote {

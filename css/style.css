@@ -79,7 +79,7 @@ time, mark, audio, video {
 
 
 /* ============== FIRST ==============*/
-/* ==============   🏆  ==============*/
+/* ==============  🏆   ==============*/
 /* ============== FIRST ==============*/
 
 
@@ -138,21 +138,15 @@ time, mark, audio, video {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    /* padding-left: 10vh; */
-    /* padding-right: 10vh; */
 }
 
 .first__hero-text-wrapper{
+    /* background-color: red; */
     height: 40vh;
-    width: 90vw;
+    width: 70vw;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
-
 }
 
 .first__hero-text-wrapper p {
@@ -610,12 +604,11 @@ main h5 {
 
 
 
-
-
+/* ============== CASE2 ==============*/
 /* ============== CASE2 ==============*/
 /* ==============  🥈   ==============*/
 /* ============== CASE2 ==============*/
-
+/* ============== CASE2 ==============*/
 
 
 
@@ -702,6 +695,9 @@ main h5 {
   }
 
 
+/* ==============  🥈   ==============*/
+
+
 .case2__survey-image {
     height: 140vh;
     /* max-height: 100vh; */
@@ -712,7 +708,7 @@ main h5 {
     background-repeat: no-repeat;
 }
 
-.case2__concept-text {
+.case2__survey-text {
     height: 90vh;
     display: grid;
     grid-template-columns: repeat(12, 8.33%);
@@ -723,23 +719,23 @@ main h5 {
     /* z-index: -10; */
 }
 
-.case2__concept-text__paragraph-1 {
+.case2__survey-text__paragraph-1 {
     grid-row: 2 / 12;
     grid-column: 1 / 5;
 }
 
-.case2__concept-text__paragraph-2 {
+.case2__survey-text__paragraph-2 {
     grid-row: 2 / 12;
     grid-column: 5 / 9;
 }
 
-.case2__concept-text p {
+.case2__survey-text p {
     max-width: 400px;
     padding-left: 10%;
     padding-right: 10%;
 }
 
-.case2__concept-text__quote {
+.case2__survey-text__quote {
     max-width: 700px;
     padding-left: 10%;
     padding-right: 2%;
@@ -749,91 +745,15 @@ main h5 {
 
 
 
-
-
-.case2__flow-image {
-    height: 120vh;
-    /* max-height: 100vh; */
-    background-image: url('../media/Y-case2-flow-2.jpeg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.case2__flow-text {
-    height: 70vh;
-    display: grid;
-    grid-template-columns: repeat(12, 8.33%);
-    grid-template-rows: repeat(12, 1fr);
-}
-
-.case2__flow-text__quote {
-    grid-row: 2 / 12;
-    grid-column: 1 / 5;
-}
-
-.case2__flow-text__quote blockquote {
-    padding: 5%;
-}
-
-
-
-
-.case2__flow-text__paragraph {
-    grid-row: 2 / 10;
-    grid-column: 6 / 11;
-}
-
-
-
-
-.case2__lo-fi-image {
-    height: 140vh;
-    /* max-height: 100vh; */
-    background-image: url('../media/Y-case2-mid-fi-collage.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.case2__lo-fi-text {
-    background-color: white;
-    height: 70vh;
-    display: grid;
-    grid-template-columns: repeat(12, 8.33%);
-    grid-template-rows: repeat(12, 1fr);
-    z-index: 1;
-
-}
-
-.case2__lo-fi-text__quote {
-    grid-row: 2 / 10;
-    grid-column: 1 / 5;
-}
-
-.case2__lo-fi-text__quote blockquote {
-    padding: 5%
-}
-
-.case2__lo-fi-text__paragraph {
-    grid-row: 2 / 10;
-    grid-column: 6 / 11;
-}
-
-
-
-
-
+/* ==============  🥈   ==============*/
 
 
 .case2__sketching-image {
-    height: 140vh;
+    height: 50vh;
     /* max-height: 100vh; */
-    background-image: url('../media/Y-case2-sketching-collage.png');
+    background-image: url('../media/Y-case2-sketching-collage-pile.jpg');
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -868,6 +788,83 @@ main h5 {
 
 
 
+/* ==============  🥈   ==============*/
+
+
+.case2__lo-fi-image {
+    height: 140vh;
+    /* max-height: 100vh; */
+    background-image: url('../media/Y-case2-mid-fi-collage.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.case2__lo-fi-text {
+    background-color: white;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+    grid-template-rows: repeat(12, 1fr);
+    z-index: 1;
+
+}
+
+.case2__lo-fi-text__quote {
+    grid-row: 2 / 10;
+    grid-column: 1 / 5;
+}
+
+.case2__lo-fi-text__quote blockquote {
+    padding: 5%
+}
+
+.case2__lo-fi-text__paragraph {
+    grid-row: 2 / 10;
+    grid-column: 6 / 11;
+}
+
+
+
+
+/* ==============  🥈   ==============*/
+
+
+.case2__flow-image {
+    height: 70vh;
+    /* max-height: 100vh; */
+    background-image: url('../media/Y-case2-flow-3.jpeg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.case2__flow-text {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.case2__flow-text__quote {
+    grid-row: 2 / 12;
+    grid-column: 1 / 5;
+}
+
+.case2__flow-text__quote blockquote {
+    padding: 5%;
+}
+
+.case2__flow-text__paragraph {
+    grid-row: 2 / 10;
+    grid-column: 6 / 11;
+}
+
+
+
+/* ==============  🥈   ==============*/
 
 
 .case2__style-image {
@@ -887,12 +884,25 @@ main h5 {
     grid-template-columns: repeat(12, 8.33%);
     grid-template-rows: repeat(12, 1fr);
     z-index: 1;
-    
 }
+
+.case2__style-text__small-image {
+  
+    grid-row: 1 / 9;
+    grid-column: 1 / 6; 
+}
+
+.case2__style-text__small-image img {
+    width: 100%;
+    height: auto;
+    padding: 8%;
+}
+
 
 .case2__style-text__quote {
     grid-row: 2 / 9;
     grid-column: 1 / 5; 
+ 
 }
 
 .case2__style-text__quote blockquote {
@@ -900,7 +910,7 @@ main h5 {
 }
 
 .case2__style-text__paragraph-1 {
-    grid-row: 2 / 13;
+    grid-row: 3 / 13;
     grid-column: 6 / 11; 
     padding-left: 10%;
 }
@@ -911,8 +921,55 @@ main h5 {
     padding-right: 10%
 }
 
+
+
+/* ==============  🥈   ==============*/
+
+
+.case2__outline-image {
+    height: 70vh;
+    /* max-height: 100vh; */
+    background-image: url('../media/Y-case2-outline-2.jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.case2__outline-text {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.case2__outline-text__quote {
+    grid-row: 2 / 12;
+    grid-column: 1 / 5;
+}
+
+.case2__outline-text__quote blockquote {
+    padding: 5%;
+}
+
+.case2__outline-text__paragraph {
+    grid-row: 2 / 10;
+    grid-column: 4 / 10;
+}
+
+.case2__outline-text__paragraph p {
+max-width: 600px;
+}
+
+
+
+
+
+
+/* ==============  🥈   ==============*/
+
 .case2__icons-image {
-    height: 120vh;
+    height: 90vh;
     /* max-height: 100vh; */
     background-image: url('../media/Y-case2-icons.png');
     background-size: cover;
@@ -923,17 +980,30 @@ main h5 {
 
 .case2__icons-text {
     background-color: white;
-    height: 100vh;
+    height: 60vh;
     display: grid;
     grid-template-columns: repeat(12, 8.33%);
     grid-template-rows: repeat(12, 1fr);
     z-index: 1;
 }
 
+
 .case2__icons-text__quote {
-    grid-row: 3 / 10;
-    grid-column: 9 / 13; 
+    grid-row: 2 / 12;
+    grid-column: 1 / 5;
 }
+
+.case2__icons-text__quote blockquote {
+    padding: 5%;
+}
+
+.case2__icons-text__paragraph {
+    grid-row: 2 / 10;
+    grid-column: 6 / 11;
+}
+
+
+/* ==============  🥈   ==============*/
 
 
 .case2__palette-image {
@@ -970,6 +1040,15 @@ main h5 {
 }
 
 
+
+/* ==============  🥈   ==============*/
+
+
+
+
+
+
+/* ==============  🥈   ==============*/
 
 
 .case2__up-arrow {

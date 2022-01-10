@@ -117,9 +117,9 @@ blockquote {
     color: #fff;
     /* mix-blend-mode: difference; */
     -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: rgba(255, 255, 255, 0.4);
     font-size: 4vw;
-    font-weight: 600;
+    font-weight: 500;
     /* filter: invert(100); */
 }

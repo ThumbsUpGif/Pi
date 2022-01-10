@@ -133,7 +133,7 @@ time, mark, audio, video {
 
     /* background: linear-gradient(90deg, #96efff 0%, #7cff75 30%, #f6ffb7 67%, #e291db 100%); */
 
-    background: linear-gradient(90deg, #AC9D8F 0%, #C9C2BB 30%, #989491 67%, #454866 100%);
+    background: linear-gradient(90deg, #998c80 0%,  #b4b0ad 50%, #454866 100%);
     background-size: 1000%;
     animation: colour-field 30s linear alternate infinite;
 
@@ -145,7 +145,7 @@ time, mark, audio, video {
 .first__hero-text-wrapper{
     /* background-color: red; */
     height: 40vh;
-    width: 70vw;
+    width: 90vw;
     display: flex;
     align-items: center;
     justify-content: center;

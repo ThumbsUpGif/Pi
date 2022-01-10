@@ -131,7 +131,9 @@ time, mark, audio, video {
     height: 80vh;
     width: 100%;
 
-    background: linear-gradient(90deg, #96efff 0%, #7cff75 30%, #f6ffb7 67%, #e291db 100%);
+    /* background: linear-gradient(90deg, #96efff 0%, #7cff75 30%, #f6ffb7 67%, #e291db 100%); */
+
+    background: linear-gradient(90deg, #AC9D8F 0%, #C9C2BB 30%, #989491 67%, #454866 100%);
     background-size: 1000%;
     animation: colour-field 30s linear alternate infinite;
 
@@ -165,7 +167,7 @@ time, mark, audio, video {
 .first__case-text-wrapper {
     /* background-color: lightgreen; */
     width: 50%;
-    padding-left: 3vw;
+    padding-left: 15vw;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -173,7 +175,7 @@ time, mark, audio, video {
 .first__case-text {
     /* background-color: plum; */
     padding: 5%;
-    max-width: 600px;
+    max-width: 400px;
 }
 
 .first__case-image-1,
@@ -859,7 +861,11 @@ main h5 {
 
 .case2__flow-text__paragraph {
     grid-row: 2 / 10;
-    grid-column: 6 / 11;
+    grid-column: 4 / 10;
+}
+
+.case2__flow-text__paragraph p {
+    max-width: 600px;
 }
 
 
@@ -937,7 +943,7 @@ main h5 {
 }
 
 .case2__outline-text {
-    height: 70vh;
+    height: 40vh;
     display: grid;
     grid-template-columns: repeat(12, 8.33%);
     grid-template-rows: repeat(12, 1fr);
@@ -945,7 +951,7 @@ main h5 {
 
 .case2__outline-text__quote {
     grid-row: 2 / 12;
-    grid-column: 1 / 5;
+    grid-column: 4 / 10;
 }
 
 .case2__outline-text__quote blockquote {
@@ -954,7 +960,7 @@ main h5 {
 
 .case2__outline-text__paragraph {
     grid-row: 2 / 10;
-    grid-column: 4 / 10;
+    grid-column: 7 / 12;
 }
 
 .case2__outline-text__paragraph p {

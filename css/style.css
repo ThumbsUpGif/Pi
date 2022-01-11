@@ -108,7 +108,7 @@ h2 {
     height: 80vh;
     width: 100%;
 
-    background: linear-gradient(90deg, #96efff 0%, #7cff75 30%, #f6ffb7 67%, #e291db 100%);
+    background: linear-gradient(90deg, #96efff 0%, #7cff75 35%, #daec64 60%, #e291db 100%);
     /* background: linear-gradient(90deg, #998c80 0%,  #918d8a 50%, #56597c 100%); */
     
     background-size: 1000%;
@@ -1252,7 +1252,7 @@ max-width: 600px;
 
 
 .case2__full-bleed-image {
-    height: 140vh;
+    height: 120vh;
     background-image: url('../media/Y-case2-hero-placeholder-2.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -1268,12 +1268,31 @@ max-width: 600px;
     height: auto;
     /* max-height: 900px; */
 
-    padding-top: 50vh;
+    padding-top: 40vh;
 }
 
 
 
+/* ==============  🥈   ==============*/
 
+.case2__animation-image {
+    background-color: white;
+    height: 60vh;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: repeat(12, 8.33%);
+    grid-template-rows: repeat(12, 1fr);
+    z-index: 1;
+}
+
+.case2__animation-image__paragraph {
+    grid-row: 5 / 10;
+    grid-column: 4 / 10;
+}
+
+.case2__animation-image__paragraph p {
+    max-width: 600px;
+}
 
 /* ==============  🥈   ==============*/
 

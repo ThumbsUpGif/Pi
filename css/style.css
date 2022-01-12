@@ -117,18 +117,19 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .hero-artwork {
+    background-color: red;
     display: flex;
-    justify-content:start; 
+    justify-content: center;
     align-items: center;
     overflow: hidden; 
 }
 
 #hero-artwork {
-    z-index: -1; 
+    z-index: 1; 
 }
 
 .hero-text {

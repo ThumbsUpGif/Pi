@@ -229,8 +229,9 @@ h2 {
 .first__about-paragraph a{
     color: var(--front__about-text);
     font-weight: 300;
-    
 }
+
+
 
 
 
@@ -239,6 +240,8 @@ h2 {
 /* ============== CASE1 ==============*/
 /* ==============  🥇   ==============*/
 /* ============== CASE1 ==============*/
+
+
 
 
 
@@ -354,7 +357,7 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     grid-template-columns: repeat(12, 8.33%);
-    grid-template-rows: repeat(80, 8.33vw);
+    grid-template-rows: repeat(84, 8.33vw);
 
 }
 
@@ -608,6 +611,77 @@ main h5 {
     transform: translateY(4.15vw);
 }
 
+.case1__responsive-design__mobile-view {
+    /* background-color: greenyellow; */
+    grid-row: 71 / 75;
+    grid-column: 1 / 6;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* transform: translateY(4.15vw);  */
+}
+
+.case1__responsive-design__mobile-view img {
+    height: 80%;
+    width: auto;
+    margin-right: 10%;
+    margin-left: auto;
+}
+
+.case1__responsive-design__tablet-view {
+    /* background-color: orange; */
+    grid-row: 75 / 79;
+    grid-column: 1 / 6;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* transform: translateY(4.15vw);  */
+}
+
+.case1__responsive-design__tablet-view {
+    height: 95%;
+    width: auto;
+    margin-left: auto;
+    margin-right: 6%;
+}
+
+.case1__responsive-design__laptop-view {
+    /* background-color: violet; */
+    grid-row: 71 / 79;
+    grid-column: 6 / 13;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    /* transform: translateY(4.15vw);  */
+}
+
+.case1__responsive-design__laptop-view img {
+    height: auto;
+    width: 85%;
+    margin-left: 5%;
+    margin-right: auto;   
+}
+
+.case1__external-link {
+    background-color: var(--case1-background-dark);
+    grid-row: 80 / 82;
+    grid-column: 5 / 10;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10%;
+    border-radius: 20px;
+}
+
+.case1__external-link p a {
+    color: #fff;
+    font-weight: 600;
+}
 
 
 
@@ -617,6 +691,8 @@ main h5 {
 /* ==============  🥈   ==============*/
 /* ============== CASE2 ==============*/
 /* ============== CASE2 ==============*/
+
+
 
 
 

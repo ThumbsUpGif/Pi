@@ -115,6 +115,7 @@ blockquote {
 .first__hero-font {
     /* background-color: red; */
     color: #fff;
+    /* color: #000; */
     /* mix-blend-mode: difference; */
     /* -webkit-text-fill-color: transparent; */
     -webkit-text-fill-color: rgba(255, 255, 255, 0.6);

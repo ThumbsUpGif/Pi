@@ -521,15 +521,25 @@ main h5 {
 
 .case1__mid-fi-text {
     /* background-color: tomato; */
-    grid-row: 35 / 38;
-    grid-column: 4 / 9;
+    grid-row: 35 / 39;
+    grid-column: 2 / 11;
     transform: translateX(4.15vw) translateY(-4.15vw);
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
 }
+
+.case1__mid-fi-text__flex-wrapper {
+    max-width: 600px;
+}
+
 
 .case1__mid-fi-image {
     grid-row: 39 / 46;
     grid-column: 1 / 13;
-    transform: translateY(-4.15vw);
+    /* transform: translateY(-4.15vw); */
+    overflow: hidden;
 }
 
 .case1__mid-fi-image img {

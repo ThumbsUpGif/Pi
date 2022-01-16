@@ -86,6 +86,20 @@
     font-style: italic;
 }
 
+
+
+:root {
+    font-size: 16px;
+    --headline: #333;
+    --body: #333;
+    --quote: #888;
+    --front__about-background: #1e2221;
+    --front__about-text: #fff;
+   
+}
+
+
+
 html {
     -webkit-font-smoothing: antialiased;
 }
@@ -96,16 +110,19 @@ ul li {
     font-family: roboto;
     font-weight: 300;
     line-height: 1.5;
+  
 }
 
 h5 {
     font-family: roboto;
-    font-weight: 500;  
+    font-weight: 500;
+    font-size: 1.02em;
+    color: var(--body);  
 }
 
 h1, h2, h3, h4 {
     font-family: roboto;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 blockquote {

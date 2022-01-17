@@ -891,7 +891,7 @@ main h5 {
 
 .case2__sketching-text {
     background-color: #fff;
-    height: 60vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: repeat(12, 8.33%);
     grid-template-rows: repeat(12, 1fr);
@@ -939,7 +939,7 @@ main h5 {
 
 .case2__lo-fi-text {
     background-color: white;
-    height: 60vh;
+    height: 70vh;
     display: grid;
     grid-template-columns: repeat(12, 8.33%);
     grid-template-rows: repeat(12, 1fr);
@@ -948,8 +948,8 @@ main h5 {
 
 
 .case2__lo-fi-text__quote {
-    grid-row: 3 / 10;
-    grid-column: 1 / 5;
+    grid-row: 4 / 10;
+    grid-column: 8 / 12;
 }
 
 .case2__lo-fi-text__quote blockquote {
@@ -958,12 +958,12 @@ main h5 {
 
 .case2__lo-fi-text h5 {
     grid-row: 2 / 10;
-    grid-column: 6 / 11;
+    grid-column: 2 / 7;
 }
 
 .case2__lo-fi-text__paragraph {
     grid-row: 3 / 10;
-    grid-column: 6 / 11;
+    grid-column: 2 / 7;
 }
 
 

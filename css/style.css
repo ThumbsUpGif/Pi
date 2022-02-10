@@ -238,6 +238,7 @@ h2 {
 
 
 .first__about-paragraph h5 {
+    color: var(--front__about-text);
     align-self: flex-start;
     padding: 0;
     margin: 0;
@@ -246,6 +247,9 @@ h2 {
 .first__about-paragraph a{
     color: var(--front__about-text);
     font-weight: 300;
+    align-self: flex-start;
+    padding: 0;
+    margin: 0;
 }
 
 
